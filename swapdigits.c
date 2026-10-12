@@ -2,17 +2,9 @@
 
 int main()
 {
-    int num, originalNum;
+    int num=13578, originalNum;
     int firstDigit, lastDigit, middleDigits, divisor = 1;
     int newNum;
-
-    printf("Enter a number: ");
-    scanf("%d", &num);
-
-    if (num < 10 && num > -10) {
-        printf("The new number is: %d\n", num);
-        return 0;
-    }
 
     originalNum = num;
 
